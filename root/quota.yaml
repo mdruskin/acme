@@ -1,0 +1,8 @@
+kind: ResourceQuota
+apiVersion: v1
+metadata:
+  name: quota
+  namespace: 
+spec:
+  hard:
+    configmaps: "2"
